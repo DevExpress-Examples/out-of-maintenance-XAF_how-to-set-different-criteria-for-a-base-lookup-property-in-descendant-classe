@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Application>
+	<Views>
+		<DetailView ID="DocumentType1_DetailView">
+			<Layout>
+				<LayoutGroup ID="Main" CaptionLocation="Default" RelativeSize="100">
+					<LayoutGroup ID="SimpleEditors" CaptionLocation="Default" RelativeSize="16">
+						<LayoutGroup ID="DocumentBase" CaptionLocation="Default" RelativeSize="17">
+							<LayoutItem ID="ModifiedBy" RelativeSize="100" SizeConstraintsType="Default" />
+							<LayoutItem ID="Name" Removed="True" />
+						</LayoutGroup>
+						<LayoutGroup ID="DocumentType1" CaptionLocation="Default" RelativeSize="48">
+							<LayoutItem ID="CreatedBy" Index="2" RelativeSize="32" SizeConstraintsType="Default" />
+							<LayoutItem ID="DocumentType1Property" Index="0" RelativeSize="38" SizeConstraintsType="Default" />
+							<LayoutItem ID="Name" ShowCaption="True" CaptionLocation="Default" Index="1" RelativeSize="29" SizeConstraintsType="Default" IsNewNode="True" />
+						</LayoutGroup>
+						<LayoutGroup ID="Note" CaptionLocation="Default" RelativeSize="33">
+							<LayoutItem ID="Author" RelativeSize="52" SizeConstraintsType="Default" />
+							<LayoutItem ID="DateTime" RelativeSize="47" SizeConstraintsType="Default" />
+						</LayoutGroup>
+					</LayoutGroup>
+					<LayoutGroup ID="SizeableEditors" CaptionLocation="Default" RelativeSize="83">
+						<LayoutItem ID="Text" RelativeSize="100" SizeConstraintsType="Default" />
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+		<DetailView ID="DocumentType2_DetailView">
+			<Layout>
+				<LayoutGroup ID="Main" CaptionLocation="Default" RelativeSize="100">
+					<LayoutGroup ID="SimpleEditors" CaptionLocation="Default" RelativeSize="15">
+						<LayoutGroup ID="DocumentBase" Removed="True" />
+						<LayoutGroup ID="DocumentType2" CaptionLocation="Default" RelativeSize="65">
+							<LayoutItem ID="CreatedBy" ShowCaption="True" CaptionLocation="Default" Index="2" RelativeSize="22" SizeConstraintsType="Default" IsNewNode="True" />
+							<LayoutItem ID="CreatedBy" Removed="True" />
+							<LayoutItem ID="DocumentType2Property" Index="0" RelativeSize="29" SizeConstraintsType="Default" />
+							<LayoutItem ID="ModifiedBy" ShowCaption="True" CaptionLocation="Default" Index="3" RelativeSize="25" SizeConstraintsType="Default" IsNewNode="True" />
+							<LayoutItem ID="Name" ShowCaption="True" CaptionLocation="Default" Index="1" RelativeSize="22" SizeConstraintsType="Default" IsNewNode="True" />
+						</LayoutGroup>
+						<LayoutGroup ID="Note" Index="1" CaptionLocation="Default" RelativeSize="34">
+							<LayoutItem ID="Author" RelativeSize="52" SizeConstraintsType="Default" />
+							<LayoutItem ID="DateTime" RelativeSize="47" SizeConstraintsType="Default" />
+						</LayoutGroup>
+					</LayoutGroup>
+					<LayoutGroup ID="SizeableEditors" CaptionLocation="Default" RelativeSize="84">
+						<LayoutItem ID="Text" RelativeSize="100" SizeConstraintsType="Default" />
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+</Application>
+
