@@ -5,6 +5,9 @@
 * [Documents.cs](./CS/WinWebSolution.Module/Documents.cs) (VB: [Documents.vb](./VB/WinWebSolution.Module/Documents.vb))
 <!-- default file list end -->
 # How to set different criteria for a base lookup property in descendant classes
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1754)**
+<!-- run online end -->
 
 
 <p>Imagine we have a base abstract class, which has a lookup property, that should be filtered differently in descendant classes. This example shows how to accomplish this task by using two different approaches:<br />
