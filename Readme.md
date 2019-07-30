@@ -6,7 +6,7 @@
 <!-- default file list end -->
 # How to set different criteria for a base lookup property in descendant classes
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1754)**
+**[[Run Online]](https://codecentral.devexpress.com/e1754/)**
 <!-- run online end -->
 
 
