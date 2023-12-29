@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128592866/12.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1754)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -10,9 +5,6 @@
 * [Documents.cs](./CS/WinWebSolution.Module/Documents.cs) (VB: [Documents.vb](./VB/WinWebSolution.Module/Documents.vb))
 <!-- default file list end -->
 # How to set different criteria for a base lookup property in descendant classes
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1754)**
-<!-- run online end -->
 
 
 <p>Imagine we have a base abstract class, which has a lookup property, that should be filtered differently in descendant classes. This example shows how to accomplish this task by using two different approaches:<br />
